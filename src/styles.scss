@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  @apply tw-m-0 tw-p-0 tw-box-border;
+  font-family: 'Times New Roman', serif;
+}
+
+.text-align-last-center {
+  -moz-text-align-last: center; /* Code for Firefox */
+  text-align-last: center;
+}
